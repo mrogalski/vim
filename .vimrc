@@ -33,6 +33,11 @@ Bundle 'guns/vim-clojure-static'
 Bundle 'guns/vim-sexp'
 Bundle 'tpope/vim-fireplace'
 
+Bundle 'kana/vim-textobj-user'
+Bundle 'kana/vim-textobj-indent'
+Bundle 'kana/vim-textobj-underscore'
+
+" Bundle 'Shougo/echodoc'
 " Bundle 'tpope/vim-abolish'
 " Bundle 'Lokaltog/vim-easymotion'
 " Bundle 'scrooloose/nerdcommenter'
