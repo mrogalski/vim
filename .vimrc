@@ -23,6 +23,7 @@ Bundle 'sjl/gundo.vim'
 Bundle 'kien/rainbow_parentheses.vim'
 Bundle 'tommcdo/vim-exchange'
 Bundle 'vim-scripts/c.vim'
+Bundle 'jpalardy/vim-slime'
 
 " haskell
 Bundle 'dag/vim2hs'
@@ -95,3 +96,6 @@ source ~/.vim/supertab.vim
 source ~/.vim/syntastic.vim
 source ~/.vim/fugitive.vim
 source ~/.vim/rainbow.vim
+source ~/.vim/slime.vim
+
+runtime macros/matchit.vim
