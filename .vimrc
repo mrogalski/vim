@@ -7,6 +7,37 @@ call vundle#rc()
 
 Bundle 'gmarik/Vundle.vim'
 
+Bundle 'Lokaltog/powerline', {'rtp': 'powerline/bindings/vim/'}
+Bundle 'ervandew/supertab'
+Bundle 'godlygeek/tabular'
+Bundle 'klen/python-mode'
+Bundle 'majutsushi/tagbar'
+Bundle 'scrooloose/syntastic'
+Bundle 'tpope/vim-commentary'
+Bundle 'tpope/vim-speeddating'
+Bundle 'tpope/vim-fugitive'
+Bundle 'tpope/vim-repeat'
+Bundle 'tpope/vim-surround'
+Bundle 'tpope/vim-unimpaired'
+Bundle 'sjl/gundo.vim'
+Bundle 'kien/rainbow_parentheses.vim'
+Bundle 'tommcdo/vim-exchange'
+Bundle 'vim-scripts/c.vim'
+
+" haskell
+Bundle 'dag/vim2hs'
+Bundle 'eagletmt/neco-ghc'
+
+" clojure
+Bundle 'guns/vim-clojure-static'
+Bundle 'guns/vim-sexp'
+Bundle 'tpope/vim-fireplace'
+
+" Bundle 'tpope/vim-abolish'
+" Bundle 'Lokaltog/vim-easymotion'
+" Bundle 'scrooloose/nerdcommenter'
+" Bundle 'wincent/Command-T'
+" Bundle 'kien/ctrlp.vim'
 filetype on
 filetype plugin on
 filetype indent on
@@ -24,6 +55,7 @@ set hlsearch
 set incsearch
 set number
 set showcmd
+set ignorecase
 set smartcase
 set title
 set wildmenu
@@ -54,4 +86,7 @@ set t_Co=256
 
 source ~/.vim/tabs.vim
 source ~/.vim/listchars.vim
-
+source ~/.vim/supertab.vim
+source ~/.vim/syntastic.vim
+source ~/.vim/fugitive.vim
+source ~/.vim/rainbow.vim
