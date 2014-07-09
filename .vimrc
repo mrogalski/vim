@@ -9,3 +9,4 @@ filetype indent on
 set hidden
 
 source ~/.vim/tabs.vim
+source ~/.vim/listchars.vim
