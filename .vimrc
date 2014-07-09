@@ -10,3 +10,5 @@ set hidden
 
 source ~/.vim/tabs.vim
 source ~/.vim/listchars.vim
+
+color tree
