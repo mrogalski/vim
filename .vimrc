@@ -9,7 +9,9 @@ call vundle#rc()
 Plugin 'gmarik/Vundle.vim'
 
 Plugin 'Lokaltog/powerline', {'rtp': 'powerline/bindings/vim/'}
+Plugin 'Valloric/YouCompleteMe'
 Plugin 'godlygeek/tabular'
+Plugin 'honza/vim-snippets'
 Plugin 'jpalardy/vim-slime'
 Plugin 'kana/vim-textobj-indent'
 Plugin 'kana/vim-textobj-underscore'
@@ -18,6 +20,7 @@ Plugin 'kien/rainbow_parentheses.vim'
 Plugin 'klen/python-mode'
 Plugin 'majutsushi/tagbar'
 Plugin 'scrooloose/syntastic'
+Plugin 'sirver/ultisnips'
 Plugin 'sjl/gundo.vim'
 Plugin 'tommcdo/vim-exchange'
 Plugin 'tpope/vim-commentary'
@@ -27,7 +30,6 @@ Plugin 'tpope/vim-speeddating'
 Plugin 'tpope/vim-surround'
 Plugin 'tpope/vim-unimpaired'
 Plugin 'vim-scripts/c.vim'
-Plugin 'Valloric/YouCompleteMe'
 
 
 " haskell
@@ -115,6 +117,7 @@ source ~/.vim/netrw.vim
 source ~/.vim/rainbow.vim
 source ~/.vim/slime.vim
 source ~/.vim/syntastic.vim
+source ~/.vim/ultisnips.vim
 
 
 runtime macros/matchit.vim
