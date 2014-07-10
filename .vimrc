@@ -6,48 +6,48 @@ filetype off
 set rtp+=~/.vim/bundle/Vundle.vim/
 call vundle#rc()
 
-Bundle 'gmarik/Vundle.vim'
+Plugin 'gmarik/Vundle.vim'
 
-Bundle 'Lokaltog/powerline', {'rtp': 'powerline/bindings/vim/'}
-Bundle 'godlygeek/tabular'
-Bundle 'jpalardy/vim-slime'
-Bundle 'kana/vim-textobj-indent'
-Bundle 'kana/vim-textobj-underscore'
-Bundle 'kana/vim-textobj-user'
-Bundle 'kien/rainbow_parentheses.vim'
-Bundle 'klen/python-mode'
-Bundle 'majutsushi/tagbar'
-Bundle 'scrooloose/syntastic'
-Bundle 'sjl/gundo.vim'
-Bundle 'tommcdo/vim-exchange'
-Bundle 'tpope/vim-commentary'
-Bundle 'tpope/vim-fugitive'
-Bundle 'tpope/vim-repeat'
-Bundle 'tpope/vim-speeddating'
-Bundle 'tpope/vim-surround'
-Bundle 'tpope/vim-unimpaired'
-Bundle 'vim-scripts/c.vim'
-Bundle 'Valloric/YouCompleteMe'
+Plugin 'Lokaltog/powerline', {'rtp': 'powerline/bindings/vim/'}
+Plugin 'godlygeek/tabular'
+Plugin 'jpalardy/vim-slime'
+Plugin 'kana/vim-textobj-indent'
+Plugin 'kana/vim-textobj-underscore'
+Plugin 'kana/vim-textobj-user'
+Plugin 'kien/rainbow_parentheses.vim'
+Plugin 'klen/python-mode'
+Plugin 'majutsushi/tagbar'
+Plugin 'scrooloose/syntastic'
+Plugin 'sjl/gundo.vim'
+Plugin 'tommcdo/vim-exchange'
+Plugin 'tpope/vim-commentary'
+Plugin 'tpope/vim-fugitive'
+Plugin 'tpope/vim-repeat'
+Plugin 'tpope/vim-speeddating'
+Plugin 'tpope/vim-surround'
+Plugin 'tpope/vim-unimpaired'
+Plugin 'vim-scripts/c.vim'
+Plugin 'Valloric/YouCompleteMe'
 
 
 " haskell
-Bundle 'dag/vim2hs'
-Bundle 'eagletmt/neco-ghc'
+Plugin 'dag/vim2hs'
+Plugin 'eagletmt/neco-ghc'
 
 " clojure
-Bundle 'guns/vim-clojure-static'
-Bundle 'guns/vim-sexp'
-Bundle 'tpope/vim-fireplace'
+Plugin 'guns/vim-clojure-static'
+Plugin 'guns/vim-sexp'
+Plugin 'tpope/vim-fireplace'
 
 
 " use(full|less) bundles?
-" Bundle 'Lokaltog/vim-easymotion'
-" Bundle 'Shougo/echodoc'
-" Bundle 'ervandew/supertab'
-" Bundle 'kien/ctrlp.vim'
-" Bundle 'scrooloose/nerdcommenter'
-" Bundle 'tpope/vim-abolish'
-" Bundle 'wincent/Command-T'
+" Plugin 'Lokaltog/vim-easymotion'
+" Plugin 'Shougo/echodoc'
+" Plugin 'ervandew/supertab'
+" Plugin 'kien/ctrlp.vim'
+" Plugin 'scrooloose/nerdcommenter'
+" Plugin 'tpope/vim-abolish'
+" Plugin 'wincent/Command-T'
 
 
 filetype on
