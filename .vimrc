@@ -71,8 +71,10 @@ set title
 set wildmenu
 
 set backspace=indent,eol,start
+set backupdir=~/.vim-temp
 set colorcolumn=+1
 set concealcursor=
+set directory=~/.vim-temp
 set foldcolumn=4
 set history=32768
 set laststatus=2
@@ -93,6 +95,9 @@ set whichwrap=b,s,h,l,<,>,[,]
 " colors for tmux
 " (possibly not needed, but keeping it for the sake of not fucking up)
 set t_Co=256
+
+set viminfo='100,<50,s10,h,n~/.viminfo
+
 
 source ~/.vim/keys.vim
 source ~/.vim/listchars.vim
