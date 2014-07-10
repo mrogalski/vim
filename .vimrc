@@ -102,6 +102,9 @@ set t_Co=256
 set viminfo='100,<50,s10,h,n~/.viminfo
 
 
+cnoremap <expr> %% getcmdtype() == ':' ? expand('%:h').'/' : '%%'
+
+
 source ~/.vim/keys.vim
 source ~/.vim/listchars.vim
 source ~/.vim/tabs.vim
