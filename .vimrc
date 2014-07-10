@@ -9,7 +9,6 @@ call vundle#rc()
 Bundle 'gmarik/Vundle.vim'
 
 Bundle 'Lokaltog/powerline', {'rtp': 'powerline/bindings/vim/'}
-Bundle 'ervandew/supertab'
 Bundle 'godlygeek/tabular'
 Bundle 'jpalardy/vim-slime'
 Bundle 'kana/vim-textobj-indent'
@@ -28,6 +27,8 @@ Bundle 'tpope/vim-speeddating'
 Bundle 'tpope/vim-surround'
 Bundle 'tpope/vim-unimpaired'
 Bundle 'vim-scripts/c.vim'
+Bundle 'Valloric/YouCompleteMe'
+
 
 " haskell
 Bundle 'dag/vim2hs'
@@ -40,17 +41,17 @@ Bundle 'tpope/vim-fireplace'
 
 
 " use(full|less) bundles?
-" Bundle 'Shougo/echodoc'
-" Bundle 'tpope/vim-abolish'
 " Bundle 'Lokaltog/vim-easymotion'
-" Bundle 'scrooloose/nerdcommenter'
-" Bundle 'wincent/Command-T'
+" Bundle 'Shougo/echodoc'
+" Bundle 'ervandew/supertab'
 " Bundle 'kien/ctrlp.vim'
+" Bundle 'scrooloose/nerdcommenter'
+" Bundle 'tpope/vim-abolish'
+" Bundle 'wincent/Command-T'
 
 
 filetype on
 filetype plugin on
-filetype indent on
 
 
 color tree
@@ -113,8 +114,10 @@ source ~/.vim/fugitive.vim
 source ~/.vim/netrw.vim
 source ~/.vim/rainbow.vim
 source ~/.vim/slime.vim
-source ~/.vim/supertab.vim
 source ~/.vim/syntastic.vim
 
 
 runtime macros/matchit.vim
+
+let g:ycm_server_keep_logfiles = 1
+let g:ycm_server_log_level = 'debug'

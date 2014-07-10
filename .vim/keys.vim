@@ -63,3 +63,5 @@ vnoremap < <gv
 vnoremap > >gv
 
 vnoremap <M-/> <Esc>/\%V
+
+nnoremap <leader>jd :YcmCompleter GoTo<CR>
