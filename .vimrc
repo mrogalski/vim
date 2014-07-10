@@ -82,6 +82,9 @@ set mouse=a
 set scrolloff=4
 set sidescrolloff=2
 set spelllang=pl
+set formatoptions-=ro
+set formatoptions+=cj
+
 
 " Command <Tab> completion, list matches, then longest common part, then all.
 set wildmode=list:longest,full
