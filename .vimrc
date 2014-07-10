@@ -35,11 +35,14 @@ Plugin 'vim-scripts/c.vim'
 " haskell
 Plugin 'dag/vim2hs'
 Plugin 'eagletmt/neco-ghc'
+Plugin 'Shougo/vimproc' " required for ghcmod-vim
+Plugin 'eagletmt/ghcmod-vim'
 
 " clojure
 Plugin 'guns/vim-clojure-static'
 Plugin 'guns/vim-sexp'
 Plugin 'tpope/vim-fireplace'
+Plugin 'dgrnbrg/vim-redl'
 
 
 " use(full|less) bundles?
@@ -54,6 +57,7 @@ Plugin 'tpope/vim-fireplace'
 
 filetype on
 filetype plugin on
+filetype indent on
 
 
 color tree
@@ -122,6 +126,3 @@ source ~/.vim/omnicomplete.vim
 
 
 runtime macros/matchit.vim
-
-let g:ycm_server_keep_logfiles = 1
-let g:ycm_server_log_level = 'debug'
