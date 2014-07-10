@@ -92,10 +92,13 @@ set t_Co=256
 
 source ~/.vim/tabs.vim
 source ~/.vim/listchars.vim
+source ~/.vim/keys.vim
+
 source ~/.vim/supertab.vim
 source ~/.vim/syntastic.vim
 source ~/.vim/fugitive.vim
 source ~/.vim/rainbow.vim
 source ~/.vim/slime.vim
+
 
 runtime macros/matchit.vim
