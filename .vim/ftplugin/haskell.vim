@@ -5,3 +5,7 @@
 if !executable("ghcmod")
 	autocmd BufWritePost *.hs GhcModCheckAndLintAsync
 endif
+
+let g:ghcmod_hlint_options = ['--ignore=Use camelcase']
+
+set expandtab

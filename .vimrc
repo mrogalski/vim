@@ -118,6 +118,7 @@ source ~/.vim/rainbow.vim
 source ~/.vim/slime.vim
 source ~/.vim/syntastic.vim
 source ~/.vim/ultisnips.vim
+source ~/.vim/omnicomplete.vim
 
 
 runtime macros/matchit.vim
