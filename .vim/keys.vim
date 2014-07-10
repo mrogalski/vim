@@ -1,5 +1,6 @@
 map <F2> :GundoToggle<CR>
 map <F3> :TagbarToggle<CR>
+set pastetoggle=<F5>
 
 " remove pesky non-breaking spaces
 imap <a-space> <space>
