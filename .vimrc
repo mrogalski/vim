@@ -99,6 +99,7 @@ source ~/.vim/listchars.vim
 source ~/.vim/tabs.vim
 
 source ~/.vim/fugitive.vim
+source ~/.vim/netrw.vim
 source ~/.vim/rainbow.vim
 source ~/.vim/slime.vim
 source ~/.vim/supertab.vim
