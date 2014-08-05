@@ -24,6 +24,7 @@ Plugin 'sirver/ultisnips'
 Plugin 'sjl/gundo.vim'
 Plugin 'tommcdo/vim-exchange'
 Plugin 'tpope/vim-abolish'
+Plugin 'tpope/vim-classpath'
 Plugin 'tpope/vim-commentary'
 Plugin 'tpope/vim-fugitive'
 Plugin 'tpope/vim-repeat'
@@ -31,7 +32,6 @@ Plugin 'tpope/vim-speeddating'
 Plugin 'tpope/vim-surround'
 Plugin 'tpope/vim-unimpaired'
 Plugin 'vim-scripts/c.vim'
-
 
 " haskell
 Plugin 'dag/vim2hs'
