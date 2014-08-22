@@ -32,6 +32,8 @@ Plugin 'tpope/vim-speeddating'
 Plugin 'tpope/vim-surround'
 Plugin 'tpope/vim-unimpaired'
 Plugin 'vim-scripts/c.vim'
+Plugin 'AndrewRadev/switch.vim'
+
 
 " haskell
 Plugin 'dag/vim2hs'

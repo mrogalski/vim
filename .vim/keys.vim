@@ -65,3 +65,11 @@ vnoremap > >gv
 vnoremap <M-/> <Esc>/\%V
 
 nnoremap <leader>jd :YcmCompleter GoTo<CR>
+nnoremap - :Switch<CR>
+
+nnoremap <f8> :w<CR>
+nnoremap <f9> :q<CR>
+nnoremap <leader>w :w<CR>
+nnoremap <leader>q :q<CR>
+nnoremap <leader>W :wq!<CR>
+nnoremap <leader>Q :q!<CR>
