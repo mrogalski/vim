@@ -73,3 +73,8 @@ nnoremap <leader>w :w<CR>
 nnoremap <leader>q :q<CR>
 nnoremap <leader>W :wq!<CR>
 nnoremap <leader>Q :q!<CR>
+
+nnoremap <leader>- :A<CR>
+
+" maybe add this to clojure ftplugin someday?
+nnoremap <silent><localleader>t :A <bar> :RunTests <bar> :A<CR><CR>
