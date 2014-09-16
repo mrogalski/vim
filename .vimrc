@@ -33,6 +33,7 @@ Plugin 'tpope/vim-surround'
 Plugin 'tpope/vim-unimpaired'
 Plugin 'vim-scripts/c.vim'
 Plugin 'AndrewRadev/switch.vim'
+Plugin 'wincent/Command-T'
 
 
 " haskell
@@ -55,7 +56,6 @@ Plugin 'dgrnbrg/vim-redl'
 " Plugin 'kien/ctrlp.vim'
 " Plugin 'scrooloose/nerdcommenter'
 " Plugin 'tpope/vim-abolish'
-" Plugin 'wincent/Command-T'
 
 
 filetype on
