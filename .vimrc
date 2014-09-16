@@ -34,6 +34,8 @@ Plugin 'tpope/vim-unimpaired'
 Plugin 'vim-scripts/c.vim'
 Plugin 'AndrewRadev/switch.vim'
 Plugin 'wincent/Command-T'
+Plugin 'tpope/vim-dispatch'
+Plugin 'tpope/vim-projectionist'
 
 
 " haskell
@@ -45,6 +47,7 @@ Plugin 'eagletmt/ghcmod-vim'
 " clojure
 Plugin 'guns/vim-clojure-static'
 Plugin 'guns/vim-sexp'
+Plugin 'tpope/vim-leiningen'
 Plugin 'tpope/vim-fireplace'
 Plugin 'dgrnbrg/vim-redl'
 
